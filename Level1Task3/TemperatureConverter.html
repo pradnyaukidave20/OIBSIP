@@ -24,13 +24,13 @@
 <body>
     <div class="container">
         <div class="card">
-            <h1>Temperature Converter</h1>
+            <h1><u>Temperature Converter</u></h1>
             <form class="form-group">
 
-                <label for="num">Enter Temperature:</label>
+                <label for="num" class="text-danger">Enter Temperature:</label>
                 <input type="number" id="num" name="num">
 
-                <label>Please Select Option:</label>
+                <label class="text-danger">Select Option:</label>
                 <input type="radio" id="ctf" name="temp" value="ctf" checked>
                 <label for="ctf">Celsius To Fahrenheit</label>
                 
@@ -40,7 +40,7 @@
                 <center>
                 <input type="button" class="btn btn-danger btn-lg" name="submit" value="Convert" onclick="ans()">
                 </center>
-                <label for="result">Result:</label>
+                <label for="result" class="text-danger">Result:</label>
                 <input type="text" id="result" name="result" disabled>
                 
             </form>
